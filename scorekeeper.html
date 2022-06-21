@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorekeeper</title>
+    <link rel="stylesheet" href="scorekeeper.css">
+</head>
+<body>
+    <div>
+        <label for="players">Choose the number of points in your game:</label>
+        <select name="players" id="players">
+            <option value="5">5</option>
+            <option value="7">7</option>
+            <option value="11">11</option>
+            <option value="13">13</option>
+            <option value="17">17</option>
+        </select>
+        </div>
+    <div>
+        <h1 id="header">0  0</h1>
+        <button id="player1">Player1</button>
+        <button id="player2">Player2</button>
+    </div>
+    <h2 id ="result"></h2>
+    <button id="refresh">refresh</button>
+
+</body>
+<script src="scorekeeper.js"></script>
+</body>
+</html>
